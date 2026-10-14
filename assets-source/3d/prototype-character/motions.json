@@ -1,0 +1,1241 @@
+{
+  "version": 1,
+  "clips": [
+    {
+      "id": "sway",
+      "label": "\u91cd\u5fc3\u79fb\u52a8",
+      "duration": 6,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.25,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              0,
+              0.08,
+              0.035
+            ],
+            "spine": [
+              0,
+              -0.06,
+              -0.025
+            ],
+            "head": [
+              0.025,
+              0.06,
+              0.04
+            ]
+          },
+          "height": -0.01
+        },
+        {
+          "at": 0.7,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              0,
+              -0.08,
+              -0.035
+            ],
+            "spine": [
+              0,
+              0.06,
+              0.025
+            ],
+            "head": [
+              -0.025,
+              -0.07,
+              -0.04
+            ]
+          },
+          "height": -0.01
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "look",
+      "label": "\u73af\u987e\u56db\u5468",
+      "duration": 7,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.25,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "chest": [
+              0,
+              0.12,
+              0
+            ],
+            "neck": [
+              0,
+              0.18,
+              0
+            ],
+            "head": [
+              0.03,
+              0.3,
+              0.04
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.65,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "chest": [
+              0,
+              -0.1,
+              0
+            ],
+            "neck": [
+              0,
+              -0.15,
+              0
+            ],
+            "head": [
+              -0.02,
+              -0.3,
+              -0.04
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "wave",
+      "label": "\u62db\u624b",
+      "duration": 5,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.22,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0.05,
+              0,
+              0.05
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              -1.9
+            ],
+            "rightHand": [
+              0.15,
+              0,
+              -0.1
+            ],
+            "head": [
+              0,
+              0.04,
+              0.05
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.38,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0.05,
+              0,
+              0.05
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              -1.9
+            ],
+            "rightHand": [
+              -0.2,
+              0,
+              0.2
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.53,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0.05,
+              0,
+              0.05
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              -1.9
+            ],
+            "rightHand": [
+              0.2,
+              0,
+              -0.2
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.7,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0.05,
+              0,
+              0.05
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              -1.9
+            ],
+            "rightHand": [
+              -0.18,
+              0,
+              0.15
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "stretch",
+      "label": "\u4f38\u5c55\u80a9\u81c2",
+      "duration": 7,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.3,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              1.18
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              -1.18
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              0.3
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              -0.3
+            ],
+            "spine": [
+              -0.06,
+              0,
+              0
+            ],
+            "head": [
+              -0.13,
+              0,
+              0
+            ]
+          },
+          "height": 0.015
+        },
+        {
+          "at": 0.6,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              1.25
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              -1.25
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              0.28
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              -0.28
+            ],
+            "spine": [
+              -0.06,
+              0,
+              0.05
+            ],
+            "head": [
+              -0.08,
+              0,
+              -0.05
+            ]
+          },
+          "height": 0.015
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "nod",
+      "label": "\u70b9\u5934\u5fae\u7b11",
+      "duration": 4,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.25,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "head": [
+              0.16,
+              0,
+              0.015
+            ]
+          },
+          "height": -0.005
+        },
+        {
+          "at": 0.45,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "head": [
+              -0.05,
+              0,
+              0
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.65,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "head": [
+              0.12,
+              0,
+              0
+            ]
+          },
+          "height": -0.005
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "bow",
+      "label": "\u6b20\u8eab\u81f4\u610f",
+      "duration": 5,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.35,
+          "bones": {
+            "leftUpperArm": [
+              -0.08,
+              0,
+              -1.35
+            ],
+            "rightUpperArm": [
+              -0.08,
+              0,
+              1.35
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              0.13,
+              0,
+              0
+            ],
+            "spine": [
+              0.18,
+              0,
+              0
+            ],
+            "chest": [
+              0.1,
+              0,
+              0
+            ],
+            "head": [
+              -0.05,
+              0,
+              0
+            ]
+          },
+          "height": -0.025
+        },
+        {
+          "at": 0.6,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              0.13,
+              0,
+              0
+            ],
+            "spine": [
+              0.18,
+              0,
+              0
+            ],
+            "chest": [
+              0.1,
+              0,
+              0
+            ],
+            "head": [
+              -0.05,
+              0,
+              0
+            ]
+          },
+          "height": -0.025
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "label": "\u4fa7\u8eab\u56de\u7738",
+      "duration": 7,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.35,
+          "bones": {
+            "leftUpperArm": [
+              0.08,
+              0,
+              -1.2
+            ],
+            "rightUpperArm": [
+              -0.08,
+              0,
+              1.2
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              0,
+              0.55,
+              0
+            ],
+            "spine": [
+              0,
+              0.12,
+              0
+            ],
+            "head": [
+              0,
+              -0.3,
+              0
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.65,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              0,
+              -0.45,
+              0
+            ],
+            "spine": [
+              0,
+              -0.1,
+              0
+            ],
+            "head": [
+              0,
+              0.25,
+              0
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    },
+    {
+      "id": "squat",
+      "label": "\u8f7b\u8e72\u8d77\u8eab",
+      "duration": 6,
+      "frames": [
+        {
+          "at": 0,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        },
+        {
+          "at": 0.35,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              -0.18,
+              -0.9
+            ],
+            "rightUpperArm": [
+              0,
+              0.18,
+              0.9
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              -0.08,
+              0,
+              0
+            ],
+            "leftUpperLeg": [
+              -0.5,
+              0,
+              0
+            ],
+            "rightUpperLeg": [
+              -0.5,
+              0,
+              0
+            ],
+            "leftLowerLeg": [
+              1,
+              0,
+              0
+            ],
+            "rightLowerLeg": [
+              1,
+              0,
+              0
+            ],
+            "leftFoot": [
+              -0.42,
+              0,
+              0
+            ],
+            "rightFoot": [
+              -0.42,
+              0,
+              0
+            ],
+            "spine": [
+              0.22,
+              0,
+              0
+            ]
+          },
+          "height": -0.115
+        },
+        {
+          "at": 0.55,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ],
+            "hips": [
+              -0.08,
+              0,
+              0
+            ],
+            "leftUpperLeg": [
+              -0.5,
+              0,
+              0
+            ],
+            "rightUpperLeg": [
+              -0.5,
+              0,
+              0
+            ],
+            "leftLowerLeg": [
+              1,
+              0,
+              0
+            ],
+            "rightLowerLeg": [
+              1,
+              0,
+              0
+            ],
+            "leftFoot": [
+              -0.42,
+              0,
+              0
+            ],
+            "rightFoot": [
+              -0.42,
+              0,
+              0
+            ],
+            "spine": [
+              0.22,
+              0,
+              0
+            ]
+          },
+          "height": -0.115
+        },
+        {
+          "at": 1,
+          "bones": {
+            "leftUpperArm": [
+              0,
+              0,
+              -1.23
+            ],
+            "rightUpperArm": [
+              0,
+              0,
+              1.23
+            ],
+            "leftLowerArm": [
+              0,
+              0,
+              -0.12
+            ],
+            "rightLowerArm": [
+              0,
+              0,
+              0.12
+            ]
+          },
+          "height": 0
+        }
+      ]
+    }
+  ]
+}

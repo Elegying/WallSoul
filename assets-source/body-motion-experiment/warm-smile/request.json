@@ -1,0 +1,18 @@
+{
+  "service": "https://huggingface.co/spaces/kulkas2pintu/wan555",
+  "source": "resources/characters/soul/neutral.png",
+  "prompt": "Locked camera, seamless natural portrait animation of exactly the same young adult woman in the reference image. Preserve her exact face, short black bob haircut, black long-sleeved sweater, body proportions and lighting. She gives a warm closed-mouth smile, briefly lowers her gaze with a gentle relaxed shoulder movement, then looks back toward the camera and returns to her original relaxed expression and posture. Both hands stay down, mouth closed throughout. Natural breathing, lifelike eyes. Waist-up framing. Keep the flat bright green chroma-key background completely unchanged. No talking, no camera movement, no cuts.",
+  "steps": 4,
+  "negative_prompt": "distorted face, identity change, extra fingers, fused fingers, deformed hands, flickering, jitter, camera motion, zoom, text, watermark, background changes",
+  "duration_seconds": 3.5,
+  "guidance_scale": 1,
+  "guidance_scale_2": 1,
+  "seed": 271828,
+  "randomize_seed": false,
+  "quality": 4,
+  "scheduler": "UniPCMultistep",
+  "flow_shift": 3,
+  "frame_multiplier": 16,
+  "video_component": true,
+  "safe_mode": true
+}

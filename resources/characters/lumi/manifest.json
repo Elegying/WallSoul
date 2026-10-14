@@ -1,0 +1,46 @@
+{
+  "id": "lumi",
+  "name": "小幕",
+  "schemaVersion": 1,
+  "assetVersion": "1.0.0",
+  "description": "原创演示角色 · 山间来信",
+  "demo": true,
+  "preview": "preview.svg",
+  "background": "background.svg",
+  "layout": {
+    "width": 480,
+    "height": 640
+  },
+  "animation": {
+    "breath": 5,
+    "blink": 4.6
+  },
+  "layers": [
+    {
+      "id": "hair-back",
+      "src": "hair-back.svg"
+    },
+    {
+      "id": "body",
+      "src": "body.svg"
+    },
+    {
+      "id": "face",
+      "src": "face.svg"
+    },
+    {
+      "id": "eyes",
+      "src": "eyes.svg",
+      "blink": "blink.svg"
+    },
+    {
+      "id": "mouth",
+      "src": "mouth.svg",
+      "speaking": "talk.svg"
+    },
+    {
+      "id": "hair-front",
+      "src": "hair-front.svg"
+    }
+  ]
+}

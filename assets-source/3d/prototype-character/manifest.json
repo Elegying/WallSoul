@@ -1,0 +1,28 @@
+{
+  "id": "soul3d",
+  "name": "幕灵 · 3D",
+  "schemaVersion": 1,
+  "assetVersion": "1.1.0",
+  "description": "实时骨骼 · 风格化人物",
+  "demo": true,
+  "preview": "preview.svg",
+  "background": "background.svg",
+  "layout": {
+    "width": 1024,
+    "height": 1536
+  },
+  "animation": {
+    "breath": 5.8,
+    "blink": 4.7
+  },
+  "layers": [
+    {
+      "id": "fallback",
+      "src": "preview.svg"
+    }
+  ],
+  "model": {
+    "src": "character.vrm",
+    "motions": "motions.json"
+  }
+}

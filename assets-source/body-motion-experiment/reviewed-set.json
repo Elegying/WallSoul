@@ -1,0 +1,162 @@
+{
+  "reference": "resources/characters/soul/neutral.png",
+  "referenceSha256": "a7f0808575acdf0285fd39a7cf37ebc6b88c9670a7c403f8fdcf31c4f87e582d",
+  "notes": [
+    "喜、怒、哀附带抬手动作",
+    "脸红效果偏轻，眉眼并未形成明确单眼眨眼；表情语义差异仍需用户验收",
+    "统一560×832原生尺寸，32 fps包含服务端插帧；0.4.2替换为完整手臂挥手",
+    "生成模型无法保证每帧完全相同，打包哈希防止未审文件替换，不是人脸识别认证"
+  ],
+  "clips": [
+    {
+      "id": "hair-tuck",
+      "label": "整理头发",
+      "source": "assets-source/body-motion-experiment/hair-tuck-hq-pro-v1/sample.mp4",
+      "sha256": "44bb6cc3c2420a04b7cd70cd5ccbc6c37f321a82376322ef4fafec9d0be20446",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "body",
+      "automatic": true,
+      "emotions": [
+        "neutral",
+        "happy",
+        "curious"
+      ]
+    },
+    {
+      "id": "wave",
+      "label": "轻轻挥手",
+      "source": "assets-source/body-motion-experiment/wave-pro-v1/sample.mp4",
+      "sha256": "342301ea7fe9f2ae31b090dd7346cf2de6f4f6a9b2a1408f35ca17b063e303f0",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "检查七个全身关键帧，抬起的手掌、前臂和手肘均在画面内；保留原参考形象。非全帧身份认证。",
+      "kind": "body",
+      "automatic": true,
+      "emotions": [
+        "happy"
+      ]
+    },
+    {
+      "id": "joy",
+      "label": "喜",
+      "source": "assets-source/body-motion-experiment/joy-pro-v1/sample.mp4",
+      "sha256": "e7fbedf62a032142189c18d27bf9e55d308dba52d7eacb285c7aa8ea68427801",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "anger",
+      "label": "怒",
+      "source": "assets-source/body-motion-experiment/anger-pro-v1/sample.mp4",
+      "sha256": "40469dba63795751bf648c195ace2a54815d626e30079d16574e6675fdeaa1bc",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "sadness",
+      "label": "哀",
+      "source": "assets-source/body-motion-experiment/sadness-pro-v1/sample.mp4",
+      "sha256": "dd7b5225b5a0ffe8a24afe2cb2bb180d0229fa6c68884c54abb24ecb3f63155c",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "delight",
+      "label": "乐",
+      "source": "assets-source/body-motion-experiment/delight-pro-v1/sample.mp4",
+      "sha256": "1a7f31bc53c0d5c01b1637ed39761bb134b3c63786a17c9c4495e93d5af58892",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "excitement",
+      "label": "兴奋",
+      "source": "assets-source/body-motion-experiment/excitement-pro-v1/sample.mp4",
+      "sha256": "2bcc9cfcc442e0dccacaaa9126ec85208f9291c4218e0091c2cfd044d0b80b53",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "happiness",
+      "label": "幸福",
+      "source": "assets-source/body-motion-experiment/happiness-pro-v1/sample.mp4",
+      "sha256": "d263d9814c38a65cce8e6c25762ded8c5ddc7205320b35944f8215c138d3628e",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "eye-play",
+      "label": "眉眼",
+      "source": "assets-source/body-motion-experiment/eye-play-pro-v1/sample.mp4",
+      "sha256": "b1d5d4df05e7869e7dbf640659f948dd26a22e218e3aab00d9d26926962f764a",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "blush",
+      "label": "脸红",
+      "source": "assets-source/body-motion-experiment/blush-pro-v1/sample.mp4",
+      "sha256": "be0cbe053001c7f943b69462f59196cd518df593bacf0e0130675d3d79d6deb7",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "shy",
+      "label": "害羞",
+      "source": "assets-source/body-motion-experiment/shy-pro-v1/sample.mp4",
+      "sha256": "8839fb8ca8d093f7279297faf3bc5e175784d7e3ddcbd742eb041691e2e76e44",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    },
+    {
+      "id": "annoyed",
+      "label": "生气",
+      "source": "assets-source/body-motion-experiment/annoyed-pro-v1/sample.mp4",
+      "sha256": "57a72ec235f99ce389b8ae511d31e766bd1fbdac741ba9629927a72f7ae0310d",
+      "frames": 113,
+      "identityReview": "accepted",
+      "reviewMethod": "人工检查5个全身关键帧，并每7帧抽取面部，共17帧覆盖0–112；未见明显人物身份替换。生成表情与局部细节仍有差异，不是全帧生物识别保证。",
+      "kind": "expression",
+      "automatic": false,
+      "emotions": []
+    }
+  ]
+}

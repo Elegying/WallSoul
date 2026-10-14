@@ -1,0 +1,19 @@
+{
+  "service": "https://huggingface.co/spaces/kulkas2pintu/wan555",
+  "source": "resources/characters/soul/neutral.png",
+  "sourceSha256": "a7f0808575acdf0285fd39a7cf37ebc6b88c9670a7c403f8fdcf31c4f87e582d",
+  "prompt": "固定镜头，参考图中完全相同的成年女性安静站立，保持相同的五官、短黑发、黑色长袖衣服、身体比例和光照。她的嘴唇始终轻轻合拢，保持平和的原有表情。头部保持原来的角度，仅肩胸随着缓慢呼吸极轻微起伏，自然眨眼一次。手臂一直放松垂下。纯绿色背景不变，镜头不移动。最后自然停留在开始时的姿态。",
+  "steps": 8,
+  "negative_prompt": "talking, speech, singing, lip articulation, open mouth, visible teeth, tongue, jaw movement, nodding, head tilting, broad smile, hand gesture, blur, soft focus, loss of facial detail, motion blur, distorted face, identity change, extra fingers, fused fingers, deformed hands, flickering, jitter, camera motion, zoom, text, watermark, background changes",
+  "duration_seconds": 3.5,
+  "guidance_scale": 4.0,
+  "guidance_scale_2": 4.0,
+  "seed": 492017,
+  "randomize_seed": false,
+  "quality": 9,
+  "scheduler": "UniPCMultistep",
+  "flow_shift": 3,
+  "frame_multiplier": 32,
+  "video_component": true,
+  "safe_mode": true
+}

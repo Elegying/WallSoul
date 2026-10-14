@@ -1,0 +1,68 @@
+{
+  "referenceSha256": "a7f0808575acdf0285fd39a7cf37ebc6b88c9670a7c403f8fdcf31c4f87e582d",
+  "reviewMethod": "第二批每段七个全身与口部关键帧；微露齿，仍有少数较大开口帧，作为新路线候选待用户验收。非精确音素同步。",
+  "clips": [
+    {
+      "id": "speech-soft-a",
+      "label": "轻声交谈 A",
+      "source": "assets-source/body-motion-experiment/speaking-soft-a-pro-v2/sample.mp4",
+      "sha256": "e2ea415edd99d3f87f5701a817f4cde4ffd896c657df544634aacd44335556b1"
+    },
+    {
+      "id": "speech-soft-b",
+      "label": "轻声交谈 B",
+      "source": "assets-source/body-motion-experiment/speaking-soft-b-pro-v2/sample.mp4",
+      "sha256": "b2de14fd9e66c633c914d4227d461e9d7662ebf53deae6013c095f727c31ae5b"
+    },
+    {
+      "id": "speech-soft-c",
+      "label": "轻声交谈 C",
+      "source": "assets-source/body-motion-experiment/speaking-soft-c-pro-v2/sample.mp4",
+      "sha256": "e1c768f90c764c9ba6a5793cba68b9c1316856ea43a79214c67c84b9b9da0591"
+    },
+    {
+      "id": "speech-soft-d",
+      "label": "侧头回应",
+      "source": "assets-source/body-motion-experiment/speaking-soft-d-pro-v2/sample.mp4",
+      "sha256": "1751f8da25111c1b4676af77bf56b6fd84172f6e7d84c4ca033f0ee57cbd585d"
+    },
+    {
+      "id": "speech-soft-e",
+      "label": "轻点头解释",
+      "source": "assets-source/body-motion-experiment/speaking-soft-e-pro-v2/sample.mp4",
+      "sha256": "3b29435520c1095e580c60c4b2f6e868853c900d78b17afda2ca02cfafbcac13"
+    },
+    {
+      "id": "listening-soft",
+      "label": "专注聆听",
+      "playback": "listening",
+      "source": "assets-source/body-motion-experiment/listening-soft-pro-v1/sample.mp4",
+      "sha256": "bbab71a4160e67422beef12a1e2bb617d1ff19b341ddf286fab39cc2b4088798",
+      "reviewMethod": "七个关键帧保持看向前方，含眨眼与轻微头肩变化；唇部偶有放松微张，不使用说话图集。"
+    },
+    {
+      "id": "listening-tilt",
+      "label": "侧头聆听",
+      "playback": "listening",
+      "source": "assets-source/body-motion-experiment/listening-tilt-pro-v1/sample.mp4",
+      "sha256": "ef4ffe5671ca0d8551e5f6642e127247972323e432d7295de585063a84763968",
+      "reviewMethod": "七个关键帧：维持原形象、面向用户，侧头与柔和微笑有区别；存在少量放松唇动。"
+    },
+    {
+      "id": "listening-warm",
+      "label": "微笑聆听",
+      "playback": "listening",
+      "source": "assets-source/body-motion-experiment/listening-warm-pro-v1/sample.mp4",
+      "sha256": "04765a41437f3dc8347f4168ce8b058b14c44746a1d5fc3316a83b0dc4507fc7",
+      "reviewMethod": "七个关键帧：维持原形象、面向用户，侧头与柔和微笑有区别；存在少量放松唇动。"
+    },
+    {
+      "id": "listening-nod",
+      "label": "点头聆听",
+      "playback": "listening",
+      "source": "assets-source/body-motion-experiment/listening-nod-pro-v2/sample.mp4",
+      "sha256": "2c436f6b0098ffeceab770beee9f87b4070b21e7dc413b3309a139d952f38281",
+      "reviewMethod": "第二版七个关键帧保持原形象、面向用户，点头幅度克制；开口比第一版减小，仍有放松微张。"
+    }
+  ]
+}
