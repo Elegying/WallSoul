@@ -36,6 +36,8 @@ macOS 完整人物使用 32 fps 透明视频，低功耗使用同尺寸、同速
 
 需要 Node.js 24、npm、Rust 1.88 及以上。macOS 构建需要 Xcode 26 或更新版本及 macOS 26 SDK；应用最低运行系统仍为 macOS 14.0，较新的音频接口通过运行时版本检查启用。
 
+依赖安全补丁的来源与独立回归测试见 [依赖安全修复与验证](docs/dependency-security.md)。
+
 ```sh
 npm ci
 npm test

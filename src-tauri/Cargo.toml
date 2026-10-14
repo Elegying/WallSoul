@@ -5,6 +5,17 @@ description = "幕灵 · 本地动态人物桌面"
 authors = ["WallSoul"]
 edition = "2021"
 rust-version = "1.88"
+
+[workspace]
+members = ["security-tests"]
+default-members = ["."]
+exclude = ["vendor/glib"]
+resolver = "2"
+
+[patch.crates-io]
+# GTK 0.18 requires glib 0.18; carry the upstream VariantStrIter safety fix.
+glib = { path = "vendor/glib" }
+
 [lib]
 name = "wallsoul_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
