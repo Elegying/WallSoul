@@ -6,4 +6,4 @@ rust-version = "1.88"
 publish = false
 
 [dependencies]
-glib = "=0.18.5"
+glib = { path = "../vendor/glib" }

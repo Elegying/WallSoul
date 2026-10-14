@@ -24,6 +24,10 @@ GTK 0.18 要求 glib 0.18，无法直接换成修复该问题的官方 glib 0.20
 有关；它验证修补依赖，不表示 WallSoul 已获得 Linux 应用支持。桌面默认构建仍只选中
 WallSoul，macOS 和 Windows 的运行依赖不会因测试而引入 GLib。
 
+测试清单直接声明本地源码路径，避免扫描器将它误识别为额外的 crates.io 0.18.5 依赖。
+CI 先运行 `scripts/check-glib-patch.py`，核对应用 patch、测试依赖和锁文件确实指向同一份
+本地源码，并拒绝锁文件中再次混入 registry 版本的 glib。
+
 本地对照使用 Rust 1.98.0、macOS 和系统 GLib 2.90.1：同一组测试在未修补的官方
 glib 0.18.5 上以 `SIGSEGV` 退出，应用这两行补丁后 3 项全部通过。source-map-js 1.2.1
 也未能通过超大偏移拒绝断言；1.2.2 通过新增回归测试。这些是代码回归证据，未更新已安装
@@ -32,6 +36,7 @@ glib 0.18.5 上以 `SIGSEGV` 退出，应用这两行补丁后 3 项全部通过
 ```sh
 # macOS 测试环境：brew install glib
 # Debian/Ubuntu 测试环境：sudo apt-get install libglib2.0-dev pkg-config
+python3 scripts/check-glib-patch.py
 cargo test --locked --release --manifest-path src-tauri/Cargo.toml -p wallsoul-dependency-tests
 npm ci
 npm test

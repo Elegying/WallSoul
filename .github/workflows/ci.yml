@@ -11,6 +11,7 @@ jobs:
           workspaces: src-tauri
           shared-key: dependency-security
       - run: sudo apt-get update && sudo apt-get install -y libglib2.0-dev
+      - run: python3 scripts/check-glib-patch.py
       # The original glib bug is triggered by optimized builds. No GUI is needed.
       - run: cargo test --locked --release --manifest-path src-tauri/Cargo.toml -p wallsoul-dependency-tests
 
