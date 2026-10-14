@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-characters"
+description = "Enables the characters command without any pre-configured scope."
+commands.allow = ["characters"]
+
+[[permission]]
+identifier = "deny-characters"
+description = "Denies the characters command without any pre-configured scope."
+commands.deny = ["characters"]

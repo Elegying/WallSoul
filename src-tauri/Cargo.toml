@@ -1,0 +1,25 @@
+[package]
+name = "wallsoul"
+version = "0.6.0"
+description = "幕灵 · 本地动态人物桌面"
+authors = ["WallSoul"]
+edition = "2021"
+rust-version = "1.88"
+[lib]
+name = "wallsoul_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-single-instance = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+uuid = { version = "1", features = ["v4", "serde"] }
+
+tokio = { version = "1", features = ["sync"] }
+
+# Avoid thin-local LTO reparsing gigabytes of embedded animation constants.
+# https://doc.rust-lang.org/cargo/reference/profiles.html#lto
+[profile.release.package.wallsoul]
+codegen-units = 1

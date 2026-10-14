@@ -1,0 +1,1 @@
+{"identifier": "panel", "windows": ["main"], "permissions": ["core:event:allow-listen", "core:event:allow-unlisten", "allow-snapshot", "allow-action", "allow-settings", "allow-characters", "allow-metrics", "allow-audio-action", "allow-audio-sources"]}

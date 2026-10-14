@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "WallSoul",
+  "version": "0.6.0",
+  "identifier": "app.wallsoul.desktop",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build:desktop",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "幕灵 · WallSoul",
+        "width": 1120,
+        "height": 790,
+        "minWidth": 880,
+        "minHeight": 650,
+        "backgroundColor": "#f5f3ef"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; connect-src 'self' ipc: http://ipc.localhost; script-src 'self'; media-src 'self' blob:",
+      "capabilities": [
+        "panel",
+        "wallpaper"
+      ]
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "app"
+    ],
+    "icon": [
+      "icons/icon.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "macOS": {
+      "minimumSystemVersion": "14.0",
+      "infoPlist": "Info.plist"
+    },
+    "resources": {
+      "../artifacts/bundle-characters/": "characters/"
+    }
+  }
+}

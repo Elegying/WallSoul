@@ -1,0 +1,31 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+.DS_Store
+artifacts/
+tools/LivePortrait/
+assets-source/original-motion/
+*.blend1
+
+# Machine-local public signing reference; private key is held in Keychain.
+.local-signing.json
+
+.local-hf/
+
+# Downloaded research tools, model weights, and Python environments.
+/tools/TPSMotion/
+/tools/face-lab/
+/tools/video-client/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials and signing material.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
